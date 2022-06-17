@@ -131,7 +131,9 @@
         }else{ echo "<tr><td colspan='10'>No records found</td></tr>"; }?>
     </tbody>
 </table>
-<?php  echo $links; ?> 
+<ul class="tsc_pagination">
+<?php  echo $links; ?>
+</ul>
 </div>
 </div>
 
