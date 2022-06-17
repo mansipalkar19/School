@@ -1,0 +1,35 @@
+.login-page, .register-page {
+   /* background: url(../images/background.jpg) repeat fixed;*/
+}
+ .bg-light{
+        background: #fff !important;
+    }
+    #pswd_info {
+        background: #dfdfdf none repeat scroll 0 0;
+        color: #000;
+        right: 20px;
+        position: absolute;
+        top: 315px;
+        width: 30%;
+    }
+    #pswd_info h4{
+        background: #e765b7 none repeat scroll 0 0;
+        display: block;
+        font-size: 14px;
+        letter-spacing: 0;
+        padding: 17px 0;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #pswd_info ul {
+        list-style: outside none none;
+    }
+    #pswd_info ul li {
+       padding: 5px;
+       display: block;
+    }
+    
+    #pswd_info {
+        display:none;
+    }
